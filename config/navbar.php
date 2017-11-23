@@ -31,7 +31,24 @@ return [
                 "text" => t("Test"),
                 "url" => $this->di->get("url")->create("test"),
                 "title" => t("Test this website"),
-                
+
+            ],
+            "grid" => [
+                "text" => t("Grid"),
+                "url" => $this->di->get("url")->create("grid"),
+                "title" => t("Test the grid"),
+            ],
+
+            "400_colorscheme" => [
+                "text" => t("Analysis"),
+                "url" => $this->di->get("url")->create("analysis"),
+                "title" => t("Analysing colour"),
+            ],
+
+            "typography" => [
+                "text" => t("Typography"),
+                "url" => $this->di->get("url")->create("typography"),
+                "title" => t("typography"),
             ],
         ],
     ],
@@ -61,6 +78,29 @@ return [
                 "text"  => t("About"),
                 "url"   => $this->di->get("url")->create("about"),
                 "title" => t("About this website")
+            ],
+            "grid" => [
+                "text"  => t("Grid"),
+                "url"   => $this->di->get("url")->create("grid"),
+                "title" => t("test the grid")
+            ],
+            
+            "400_colorscheme" => [
+                "text" => t("400_colorscheme"),
+                "url" => $this->di->get("url")->create("analysis"),
+                "title" => t("Analysing colour"),
+            ],
+
+            "typography" => [
+                "text" => t("Typography"),
+                "url" => $this->di->get("url")->create("typography"),
+                "title" => t("typography"),
+            ],
+
+            "theme" => [
+                "text" => t("Theme"),
+                "url" => $this->di->get("url")->create("theme"),
+                "title" => t("theme selector"),
             ],
         ],
     ],
