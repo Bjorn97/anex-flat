@@ -15,7 +15,7 @@ return [
             "title"      => "Minimal style, only the plain base",
             "class"      => "",
             "stylesheets" => [
-                "css/modules.min.css"
+                "css/base.min.css"
             ]
         ],
 
@@ -32,7 +32,9 @@ return [
         "light"     =>  [
             "title"      => "Very light theme, white, black and nuances of grey",
             "class"      => "light",
-            "stylesheets" => []
+            "stylesheets" => [
+                "css/light.min.css"
+            ]
         ],
 
         "color"     => [

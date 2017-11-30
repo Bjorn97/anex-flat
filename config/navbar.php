@@ -40,9 +40,14 @@ return [
             ],
 
             "400_colorscheme" => [
-                "text" => t("Analysis"),
+                "text" => t("Colour"),
                 "url" => $this->di->get("url")->create("analysis"),
                 "title" => t("Analysing colour"),
+            ],
+            "500_speed-and-usability" => [
+                "text" => t("Image"),
+                "url" => $this->di->get("url")->create("analysis"),
+                "title" => t("Analysing Images"),
             ],
 
             "typography" => [
